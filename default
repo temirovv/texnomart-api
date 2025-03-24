@@ -1,8 +1,7 @@
 server {
     listen 80;
     server_name 194.87.43.178 http://194.87.43.178;
-    return 301 https://$host$request_uri;
-
+    
     location / {
         proxy_pass http://127.0.0.1:8000;
         proxy_set_header Host $host;
