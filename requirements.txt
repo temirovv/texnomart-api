@@ -1,0 +1,7 @@
+django
+djangorestframework
+markdown
+django-filter
+Pillow
+drf-spectacular
+django-cors-headers
